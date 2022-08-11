@@ -1,7 +1,10 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+
 [![Python application test with Github Actions](https://github.com/alka077/udacity_project2_CICD/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/alka077/udacity_project2_CICD/actions/workflows/pythonapp.yml)
+
+
+In this project, I build a Github repository from scratch and create a scaffolding that will assist me in performing both Continuous Integration and Continuous Delivery. I will use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Next, I will integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
 
 ## Project Plan
 <TODO: Project Plan
