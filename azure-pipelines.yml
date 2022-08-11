@@ -10,7 +10,7 @@ pool: myAgentPool
 
 variables:
   # TODO: Replace the service connection name
-  azureServiceConnectionId: 'myserviceconn93'
+  azureServiceConnectionId: 'serviceconn93'
   
   # TODO: Replace 'mywebapp193576' with the existing Web App name
   webAppName: 'udacitywebapp'
