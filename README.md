@@ -8,8 +8,8 @@ In this project, I build a Github repository from scratch and create a scaffoldi
 
 This repositry demonstrate:
 
-Deploying the app in Azure CloudShell
-Deploying the app as a web server using Azure App Service.
+*Deploying the app in Azure CloudShell
+*Deploying the app as a web server using Azure App Service.
 
 ## Project Plan
 <TODO: Project Plan
