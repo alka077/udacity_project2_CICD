@@ -25,8 +25,6 @@ Deploying the app as a web server using Azure App Service.
 
 In Azure Cloud Shell, clone the repo:
 
-git clone git@github.com:Haneen-97/udacity-azure-cicd.git
-
 * ![image](https://user-images.githubusercontent.com/106584802/184150456-7f84ec08-3afb-498a-8043-f8807668737e.png)
 
 
