@@ -26,6 +26,7 @@ This repositry demonstrate:
 In Azure Cloud Shell, clone the repo:
 
 * ![image](https://user-images.githubusercontent.com/106584802/184150456-7f84ec08-3afb-498a-8043-f8807668737e.png)
+![image](https://user-images.githubusercontent.com/106584802/184152975-100efc92-2e14-49e1-b7b3-6d284302d60b.png)
 
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
@@ -65,6 +66,6 @@ these pipelines will help in delivering continously and will integrate with our 
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+https://www.youtube.com/watch?v=wOxy6o2dDhM
 
 
