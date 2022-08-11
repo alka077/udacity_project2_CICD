@@ -8,11 +8,10 @@ In this project, I build a Github repository from scratch and create a scaffoldi
 
 This repositry demonstrate:
 
-*Deploying the app in Azure CloudShell
-*Deploying the app as a web server using Azure App Service.
+* Deploying the app in Azure CloudShell
+* Deploying the app as a web server using Azure App Service.
 
 ## Project Plan
-<TODO: Project Plan
 
 * A link to a Trello board for the project
 * A link to a spreadsheet that includes [project-management-template (1).xlsx](https://github.com/alka077/udacity_project2_CICD/files/9309410/project-management-template.1.xlsx)
@@ -27,18 +26,27 @@ the original and final project plan>
 In Azure Cloud Shell, clone the repo:
 
 * ![image](https://user-images.githubusercontent.com/106584802/184150456-7f84ec08-3afb-498a-8043-f8807668737e.png)
+
+ADD The SSH key to github account:
+
 ![image](https://user-images.githubusercontent.com/106584802/184152975-100efc92-2e14-49e1-b7b3-6d284302d60b.png)
 
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
+
+
  ![image](https://user-images.githubusercontent.com/106584802/184150584-37033ff8-0c15-49ce-ac80-eb71966d6c1c.png)
 
 
-* enable Git hub actions
+* Enable Git hub actions and update the pythonapp.YML file
+
+
 * ![image](https://user-images.githubusercontent.com/106584802/184150783-0294d7b2-748f-4fdd-bc70-f85fbed8a8f4.png)
 
 
-create an web app service
+Create an web app service using below cmd
+az webapp up --name <appname> --resource-group <rgname> --location <location> --runtime "PYTHON:3.7"
+
 ![image](https://user-images.githubusercontent.com/106584802/184151020-f4b642cc-9f73-43bf-8e8f-80554077feb0.png)
 
 
@@ -46,17 +54,15 @@ create the pipeline and deploy
 ![image](https://user-images.githubusercontent.com/106584802/184151316-c33ce537-e259-47e4-982e-e62f9d39dd05.png)
 
 
-webapp deployment center
+Webapp deployment center
+ 
+ 
 ![image](https://user-images.githubusercontent.com/106584802/184151391-ffa1bdcc-1a24-460d-b642-3934452af079.png)
 
 
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
-
-* Output of streamed log files from deployed application
+* Output of streamed log files from deployed application by running below cmd
+ 
+ az webapp log tail
 
 > ![image](https://user-images.githubusercontent.com/106584802/184151497-cfc22750-31aa-4270-a030-db43ee1e8d6a.png)
 
