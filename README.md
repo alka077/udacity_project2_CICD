@@ -6,6 +6,11 @@
 
 In this project, I build a Github repository from scratch and create a scaffolding that will assist me in performing both Continuous Integration and Continuous Delivery. I will use Github Actions along with a Makefile, requirements.txt and application code to perform an initial lint, test, and install cycle. Next, I will integrate this project with Azure Pipelines to enable Continuous Delivery to Azure App Service.
 
+This repositry demonstrate:
+
+Deploying the app in Azure CloudShell
+Deploying the app as a web server using Azure App Service.
+
 ## Project Plan
 <TODO: Project Plan
 
@@ -14,25 +19,36 @@ In this project, I build a Github repository from scratch and create a scaffoldi
 
 ## Instructions
 
-<TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
+* ![image](https://user-images.githubusercontent.com/106584802/184150199-dee1bfce-bd45-49b7-b98b-d8ddf7b6f337.png)
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
-* Project running on Azure App Service
+In Azure Cloud Shell, clone the repo:
 
-* Project cloned into Azure Cloud Shell
+git clone git@github.com:Haneen-97/udacity-azure-cicd.git
+
+* ![image](https://user-images.githubusercontent.com/106584802/184150456-7f84ec08-3afb-498a-8043-f8807668737e.png)
+
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
+ ![image](https://user-images.githubusercontent.com/106584802/184150584-37033ff8-0c15-49ce-ac80-eb71966d6c1c.png)
 
-* Output of a test run
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+* enable Git hub actions
+* ![image](https://user-images.githubusercontent.com/106584802/184150783-0294d7b2-748f-4fdd-bc70-f85fbed8a8f4.png)
 
-* Running Azure App Service from Azure Pipelines automatic deployment
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
+create an web app service
+![image](https://user-images.githubusercontent.com/106584802/184151020-f4b642cc-9f73-43bf-8e8f-80554077feb0.png)
+
+
+create the pipeline and deploy
+![image](https://user-images.githubusercontent.com/106584802/184151316-c33ce537-e259-47e4-982e-e62f9d39dd05.png)
+
+
+webapp deployment center
+![image](https://user-images.githubusercontent.com/106584802/184151391-ffa1bdcc-1a24-460d-b642-3934452af079.png)
+
 
 ```bash
 udacity@Azure:~$ ./make_predict_azure_app.sh
@@ -42,11 +58,12 @@ Port: 443
 
 * Output of streamed log files from deployed application
 
-> 
+> ![image](https://user-images.githubusercontent.com/106584802/184151497-cfc22750-31aa-4270-a030-db43ee1e8d6a.png)
+
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+these pipelines will help in delivering continously and will integrate with our incremental release
 
 ## Demo 
 
