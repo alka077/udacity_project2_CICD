@@ -1,6 +1,7 @@
 # Overview
 
 <TODO: complete this with an overview of your project>
+[![Python application test with Github Actions](https://github.com/alka077/udacity_project2_CICD/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/alka077/udacity_project2_CICD/actions/workflows/pythonapp.yml)
 
 ## Project Plan
 <TODO: Project Plan
