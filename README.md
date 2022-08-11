@@ -15,7 +15,8 @@ This repositry demonstrate:
 <TODO: Project Plan
 
 * A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* A link to a spreadsheet that includes [project-management-template (1).xlsx](https://github.com/alka077/udacity_project2_CICD/files/9309410/project-management-template.1.xlsx)
+the original and final project plan>
 
 ## Instructions
 
